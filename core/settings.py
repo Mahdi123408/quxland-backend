@@ -65,6 +65,7 @@ INSTALLED_APPS = [
     'mdeditor',
     'transaction.apps.TransactionConfig',
     'ticket.apps.TicketConfig',
+    'setting.apps.SettingConfig',
 ]
 TIME_CLAIM_DOREATION = timedelta(minutes=1)
 CLICK_COUNT_PER_TIME = 420

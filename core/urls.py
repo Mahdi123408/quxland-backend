@@ -45,6 +45,7 @@ urlpatterns = [
                   path('api/profile', include('profiles.urls')),
                   path('api/file', include('files.urls')),
                   path('api/wallet', include('transaction.urls')),
+                  path('api/setting', include('setting.urls')),
                   path('api/weblog', include('weblog.urls')),
                   path('api/validate-token', auth_views.ValidateTokenView.as_view(), name='token_validate'),
                   path('swagger<format>', schema_view.without_ui(cache_timeout=0), name='schema-json'),
