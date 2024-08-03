@@ -27,7 +27,7 @@ def send_sms(phone_number, txt):
 
         message_id = sms.send_pattern(
             "yuakjom5eipaijy",  # pattern code
-            "+9810004551235312	",  # originator
+            "+983000505",  # originator
             phone_number,  # recipient
             pattern_values,  # pattern values
         )
@@ -235,7 +235,7 @@ def send_sms_code(user, type_sms=None):
 
                     message_id = sms.send_pattern(
                         "cyi04e9ps7be4l4",  # pattern code
-                        "+9810004551235312	",  # originator
+                        "+983000505",  # originator
                         check.user.phone,  # recipient
                         pattern_values,  # pattern values
                     )
@@ -262,7 +262,7 @@ def send_sms_code(user, type_sms=None):
 
                     message_id = sms.send_pattern(
                         "cyi04e9ps7be4l4",  # pattern code
-                        "+9810004551235312	",  # originator
+                        "+983000505	",  # originator
                         user.phone,  # recipient
                         pattern_values,  # pattern values
                     )
